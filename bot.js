@@ -17,7 +17,7 @@ const path = require('path');
 // ============================================
 const CONFIG = {
   // Gemini API Key — aistudio.google.com se lo (free)
-  geminiKey: process.env.GEMINI_KEY || 'AIzaSyB7hLZ94aJBEuLtnWISlzHDY_DoZIBVS78',
+  geminiKey: process.env.GOOGLE_API_KEY || '',
 
   // Kitne second baad reply jaye (natural feel ke liye)
   replyDelay: 2,
